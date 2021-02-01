@@ -1,1 +1,1 @@
-# dl-furniture_recommendation
+# dl_furniture_recommendation
