@@ -1,5 +1,5 @@
 # 가구 추천 시스템 딥러닝 프로젝트
-![image](https://user-images.githubusercontent.com/71831714/106569428-d8569a80-6577-11eb-8dfa-b49ab0f7a36a.png)
+<img src="https://user-images.githubusercontent.com/71831714/106569428-d8569a80-6577-11eb-8dfa-b49ab0f7a36a.png" width='500'></img>
 
 ## 개요 
 
