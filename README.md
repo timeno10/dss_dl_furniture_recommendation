@@ -28,7 +28,11 @@
 
 ### 역할
 김성준 - Detectron2로 Object Detection and Extraction, Tensorflow로 Feature Extraction, Cosine Similarity로 가구 추천, Fine Tuning을 위한 라벨링 작업
+
 유승균 - Detectron2로 Object Detection and Extraction, Docker로 라벨링 협업 시도, Fine Tuning을 위한 라벨링 작업
+
 이정려 - Fine Tuning을 위한 라벨링 작업
+
 전예나 - Faiss, Annoy로 유사도 측정, Fine Tuning을 위한 라벨링 작업
+
 정하윤 - Detectron2 조사, Fine Tuning을 위한 라벨링 툴 조사 및 작업
