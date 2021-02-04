@@ -27,9 +27,9 @@
 - 인테리어 사진을 넣으면 사진 속 가구들을 탐지하여 종류별로 비슷한 가구를 추천해주는 웹사이트 개발
 
 ### 역할
-김성준 - Detectron2로 Object Detection and Extraction, Tensorflow로 Feature Extraction, Cosine Similarity로 가구 추천, Fine Tuning을 위한 라벨링
+김성준 - Detectron2로 객체 탐지 및 추출, Tensorflow로 특징 추출, 코사인 유사도를 활용한 가구 추천, Fine Tuning을 위한 라벨링
 
-유승균 - Detectron2로 Object Detection and Extraction, Docker로 라벨링 협업 시도, Fine Tuning을 위한 라벨링
+유승균 - Detectron2로 객체 탐지 및 추출, Docker로 라벨링 협업 시도, Fine Tuning을 위한 라벨링
 
 이정려 - Fine Tuning을 위한 라벨링
 
