@@ -44,9 +44,9 @@
 - 다양한 사전 학습 모델 보유
 - 연산량이 많은 부분을 python이 아닌 CUDA와 C로 구현하여 속도가 빠름
 
-### 2. Faster R-CNN 계열 사전 학습 모델 활용<sup>[1](#footnote_1)</sup>
-- **[Faster R-CNN](https://alltimeno1.github.io/archive.html?tag=%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D%2F%EB%94%A5%EB%9F%AC%EB%8B%9D "blog link")**
-- 영상이 아닌 이미지 처리에 비교적 정확도가 높은 1-Stage Detector 모델
+### 2. R-CNN 계열 사전 학습 모델 활용<sup>[1](#footnote_1)</sup>
+- **[R-CNN 정리](https://alltimeno1.github.io/archive.html?tag=%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D%2F%EB%94%A5%EB%9F%AC%EB%8B%9D "blog link")**
+- 영상이 아닌 이미지 처리에 비교적 정확도가 높은 1-Stage Detector 모델 활용
 - YOLO보다는 처리 속도가 느리지만 데이터 작기 때문에 정확도를 우선으로 선정
 
 ### 3. 객체 특징 추출 및 유사도 측정
