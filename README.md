@@ -49,8 +49,6 @@
 - 영상이 아닌 이미지 처리에 비교적 정확도가 높은 1-Stage Detector 모델
 - YOLO보다는 처리 속도가 느리지만 데이터 작기 때문에 정확도를 우선으로 선정
 
-ㅇㄻㄴㅇㄹ[^scala]
-
 ### 3. 객체 특징 추출 및 유사도 측정
 - Tensorflow Hub에서 ImageNet으로 학습한 ResNet을 활용하여 객체 특징 추출
 - 다양한 방식으로 유사도 측정 후 최적의 방식 선정<sup>[2](#footnote_2)</sup>
@@ -60,6 +58,7 @@
  3. 맨하탄 거리 
  4. 유클리드 거리
  ```
+ 
 ### 4. Transfer Learning
 - 사전 학습 모델로는 Lamp를 탐지할 수 없음
 - RoboFlow.com에서 1000장 이상의 Lamp 이미지를 직접 라벨링 작업
