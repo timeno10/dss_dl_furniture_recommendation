@@ -66,13 +66,14 @@
 ### 5. Modeling
 - 사전 학습 모델이 아닌 직접 라벨링과 학습시키고 미세 조정한 모델 구현으로 프로젝트 방향성 변경
 - 기존에 선정한 6가지 카테고리(테이블, 의자, 시계, 쇼파, 화분, 조명) 사진을 크롤링 후 라벨링 작업
-- 샘플 학습에 사용될 모델들을 조사 후 custom 모델 만든 후 성능 비교 및 최종 모델 선정
+- 샘플 학습에 사용될 모델들을 조사 후 custom 모델 만든 후 AP와 직접 Test 이미지들을 보면서 성능 비교 및 최종 모델 선정
 ```
-  1. Faster R-CNN
-  2. Cascade R-CNN
-  3. EfficientNet
-  4. YOLOv3
-  5. DenseNet
+  AP scores
+  1. Cascade R-CNN : 
+  2. Faster R-CNN : 
+  3. EfficientNet : 
+  4. YOLOv3 : 
+  5. DenseNet : 
 ```
 
 ### 6. Web
