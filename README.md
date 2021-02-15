@@ -54,7 +54,7 @@
 ```
  1. Annoy 라이브러리를 활용하여 유사도(최근접 이웃) 측정
  2. 코사인 유사도
- 3. 맨하탄 거리(EVALUATION OF SIMILARITY MEASUREMENT FOR IMAGE RETRIEVAL, https://ieeexplore.ieee.org/document/1280752)
+ 3. 맨하탄 거리
  ```
 ### 4. Transfer Learning
 - 사전 학습 모델로는 Lamp를 탐지할 수 없음
@@ -75,3 +75,6 @@
 ### 6. Web
 - 코드 모듈화 및 데이터베이스 구축
 - Flask를 활용하여 웹사이트에 서비스 구현
+
+### 7. Reference
+1. EVALUATION OF SIMILARITY MEASUREMENT FOR IMAGE RETRIEVAL, https://ieeexplore.ieee.org/document/1280752
