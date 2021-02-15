@@ -44,17 +44,20 @@
 - 다양한 사전 학습 모델 보유
 - 연산량이 많은 부분을 python이 아닌 CUDA와 C로 구현하여 속도가 빠름
 
-### 2. Faster R-CNN 계열 사전 학습 모델 활용[^scala]
+### 2. Faster R-CNN 계열 사전 학습 모델 활용<sup>[1](#footnote_1)</sup>
 - **[Faster R-CNN](https://alltimeno1.github.io/2021/02/05/faster_rcnn.html "blog link")**
 - 영상이 아닌 이미지 처리에 비교적 정확도가 높은 1-Stage Detector 모델
 - YOLO보다는 처리 속도가 느리지만 데이터 작기 때문에 정확도를 우선으로 선정
 
+ㅇㄻㄴㅇㄹ[^scala]
+
 ### 3. 객체 특징 추출 및 유사도 측정
 - Tensorflow Hub에서 ImageNet으로 학습한 ResNet을 활용하여 객체 특징 추출
+- 다양한 방식으로 유사도 측정<sup>[2](#footnote_2)</sup>
 ```
  1. Annoy 라이브러리를 활용하여 유사도(최근접 이웃) 측정
  2. 코사인 유사도
- 3. 맨하탄 거리 [2]
+ 3. 맨하탄 거리 
  ```
 ### 4. Transfer Learning
 - 사전 학습 모델로는 Lamp를 탐지할 수 없음
@@ -77,5 +80,5 @@
 - Flask를 활용하여 웹사이트에 서비스 구현
 
 ### 7. Reference
-###### \[^scala]: Kaiming He, Georgia Gkioxari, Piotr Dollar, Ross Girshick. 2018. "Mask R-CNN". Facebook AI Research (FAIR)
-###### [2] Dengsheng Zhang, Guojun Lu. 2003. "EVALUATION OF SIMILARITY MEASUREMENT FOR IMAGE RETRIEVAL". International Conference on Neural Networks and Signal Processing
+<a name="footnote_1">[1]</a> Kaiming He, Georgia Gkioxari, Piotr Dollar, Ross Girshick. 2018. "Mask R-CNN". Facebook AI Research (FAIR)<br>
+<a name="footnote_2">[2]</a> Dengsheng Zhang, Guojun Lu. 2003. "EVALUATION OF SIMILARITY MEASUREMENT FOR IMAGE RETRIEVAL". International Conference on Neural Networks and Signal Processing
