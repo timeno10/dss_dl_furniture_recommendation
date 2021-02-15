@@ -77,4 +77,5 @@
 - Flask를 활용하여 웹사이트에 서비스 구현
 
 ### 7. Reference
-1. EVALUATION OF SIMILARITY MEASUREMENT FOR IMAGE RETRIEVAL, https://ieeexplore.ieee.org/document/1280752
+1. Dengsheng Zhang. 2003. "EVALUATION OF SIMILARITY MEASUREMENT FOR IMAGE RETRIEVAL". International Conference on Neural Networks and Signal Processing
+2. Kaiming He. 2018. "Mask R-CNN". Facebook AI Research (FAIR)
