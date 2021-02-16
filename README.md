@@ -61,10 +61,7 @@
  
 ### 4. Transfer Learning
 - 사전 학습 모델로는 Lamp를 탐지할 수 없음
-- RoboFlow.com에서 1000장 이상의 Lamp 이미지를 직접 라벨링 작업
-
-### 5. Modeling
-- 사전 학습 모델이 아닌 직접 라벨링과 학습시키고 미세 조정한 모델 구현으로 프로젝트 방향성 변경
+- 필요한 카테고리를 직접 라벨링하고 전이 학습시키는 쪽으로 프로젝트 방향성 선회
 - 인테리어 사진들을 크롤링한 후 6가지 카테고리(테이블, 의자, 시계, 쇼파, 화분, 조명)로 라벨링 작업
 - 샘플 학습에 사용될 모델들을 조사하고 전이 학습을 돌린 다음 AP와 직접 Test 이미지들을 보면서 성능 비교 및 최종 모델 선정
 ```
@@ -74,15 +71,15 @@
   | Cascade R-CNN | 43.362 | 70.160 | 49.969 | 14.598 | 42.164 | 54.229 |
   | Faster R-CNN  | 45.106 | 74.764 | 48.086 | 17.499 | 44.489 | 53.974 |
   | Mask R-CNN    | 43.566 | 73.468 | 47.526 | 15.102 | 45.112 | 52.546 |
-  | EfficientNet  | 43.362 | 70.160 | 49.969 | 14.598 | 42.164 | 54.229 |
-  | YOLOv3        | 43.362 | 70.160 | 49.969 | 14.598 | 42.164 | 54.229 |  
-  | DenseNet      | 43.362 | 70.160 | 49.969 | 14.598 | 42.164 | 54.229 |
+  | EfficientNet  |
+  | YOLOv3        | 
+  | DenseNet      | 
 ```
 
-### 6. Web
+### 5. Web
 - 코드 모듈화 및 데이터베이스 구축
 - Flask를 활용하여 웹사이트에 서비스 구현
 
-### 7. Reference
+### Reference
 <a name="footnote_1">[1]</a> Kaiming He, Georgia Gkioxari, Piotr Dollar, Ross Girshick. 2018. "Mask R-CNN". Facebook AI Research (FAIR)<br>
 <a name="footnote_2">[2]</a> Dengsheng Zhang, Guojun Lu. 2003. "EVALUATION OF SIMILARITY MEASUREMENT FOR IMAGE RETRIEVAL". International Conference on Neural Networks and Signal Processing
