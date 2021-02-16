@@ -80,6 +80,7 @@
 - 코드 모듈화 및 데이터베이스 구축
 - Flask를 활용하여 웹사이트에 서비스 구현
 
-### Reference
+## Reference
+
 <a name="footnote_1">[1]</a> Kaiming He, Georgia Gkioxari, Piotr Dollar, Ross Girshick. 2018. "Mask R-CNN". Facebook AI Research (FAIR)<br>
 <a name="footnote_2">[2]</a> Dengsheng Zhang, Guojun Lu. 2003. "EVALUATION OF SIMILARITY MEASUREMENT FOR IMAGE RETRIEVAL". International Conference on Neural Networks and Signal Processing
