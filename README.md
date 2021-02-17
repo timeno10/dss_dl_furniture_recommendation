@@ -46,8 +46,8 @@
 
 ### 2. R-CNN 계열 사전 학습 모델 활용<sup>[1](#footnote_1)</sup>
 - **[R-CNN 정리](https://alltimeno1.github.io/archive.html?tag=%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D%2F%EB%94%A5%EB%9F%AC%EB%8B%9D "blog link")**
-- 영상이 아닌 이미지 처리에 비교적 정확도가 높은 1-Stage Detector 모델 활용
-- YOLO보다는 처리 속도가 느리지만 데이터 작기 때문에 정확도를 우선으로 선정
+- 이미지 처리에서 비교적 정확도가 높은 1-Stage Detector 모델 활용
+- YOLO보다 처리 속도는 느리지만 데이터가 작기 때문에 정확도를 우선으로 선정
 
 ### 3. 객체 특징 추출 및 유사도 측정<sup>[2](#footnote_2)</sup>
 - Tensorflow Hub에서 ImageNet으로 학습한 ResNet을 활용하여 객체 특징 추출
@@ -60,7 +60,7 @@
  ```
  - 특정 상품에 추천 가중치 부여(가격, 제품 등록일 활용)
  
-### 4. Transfer Learning
+### 4. 전이 학습
 - 사전 학습 모델로는 Lamp를 탐지할 수 없음
 - 필요한 카테고리를 직접 라벨링하고 전이 학습시키는 쪽으로 프로젝트 계획 수정
 - 인테리어 사진들을 크롤링한 후 6가지 카테고리(테이블, 의자, 시계, 쇼파, 화분, 조명)로 라벨링 작업
