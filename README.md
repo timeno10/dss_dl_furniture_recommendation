@@ -27,7 +27,7 @@
 - 인테리어 사진을 넣으면 사진 속 가구들을 탐지하여 종류별로 비슷한 가구를 추천
 
 ### Roles
-김성준 - 사전 학습 모델로 객체 탐지 및 크로핑, R-CNN계열 모델들 학습 및 테스트, 3가지 방식으로 유사도 측정, 특정 상품에 대한 추천 가중치 설정, 특징 추출 파트 모듈화, Readme 작성
+김성준 - 사전 학습 모델로 객체 탐지 및 크로핑, R-CNN계열 모델들 학습 및 테스트, 3가지 방식으로 유사도 측정, 특정 상품에 대한 추천 가중치 설정, 크로핑과 특징 추출 파트 모듈화, Readme 작성
 
 유승균 - 
 
@@ -84,8 +84,8 @@
 - 모듈 파일 사용법
 ```
 1. !git clone https://github.com/alltimeno1/dss_dl_furniture_recommendation.git
-2. SungJun/module/pics/input.jpg을 원하는 의자 사진으로 대체
-3. python feature_extraction.py
+2. SungJun/module/pics/input.jpg을 원하는 인테리어 사진으로 대체
+3. cropping.py, feature_extraction.py 실행
 - test.ipynb 참조
 ```
 
