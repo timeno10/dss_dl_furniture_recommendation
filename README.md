@@ -47,7 +47,7 @@
 
 ### 2. R-CNN 계열 사전 학습 모델 활용<sup>[1](#footnote_1)</sup>
 - **[R-CNN 정리](https://alltimeno1.github.io/archive.html?tag=%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D%2F%EB%94%A5%EB%9F%AC%EB%8B%9D "blog link")**
-- 이미지 처리에서 비교적 정확도가 높은 1-Stage Detector 모델 활용
+- 이미지 처리에서 비교적 정확도가 높은 2-Stage Detector 모델 활용
 - YOLO보다 처리 속도는 느리지만 데이터가 작기 때문에 정확도를 우선으로 선정
 
 ### 3. 객체 특징 추출 및 유사도 측정<sup>[2](#footnote_2)</sup>
