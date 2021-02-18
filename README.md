@@ -84,13 +84,19 @@
 - 전이 학습으로 나온 weight 파일 저장
 - 추천해줄 아이템 이미지들을 사전에 특징 추출하여 csv 파일로 저장
 - 코드 모듈화를 통해 빠르고 간편하게 실행 가능하도록 정리
-- 모듈 파일 사용법
+
+**모듈 파일 사용법**
 ```
 1. !git clone https://github.com/alltimeno1/dss_dl_furniture_recommendation.git
-2. SungJun/module/pics/input.jpg을 원하는 인테리어 사진으로 대체
-3. cropping.py, feature_extraction.py 실행
+2. SungJun/module/pics 안에 원하는 인테리어 사진 넣기
+3. 여러 가구들이 찍힌 이미지일 경우 우선 cropping.py 실행 
+4. recommend_items.py 실행
+5. 파일 이름 ex) input.jpg & 카테고리 ex) chair 설정
 - test.ipynb 참조
 ```
+
+## Conclusion
+1. 추천 상품들의 배경이 추천에 많은 영향을 
 
 ## Reference
 
