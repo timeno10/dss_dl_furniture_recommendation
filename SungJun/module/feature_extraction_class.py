@@ -53,6 +53,19 @@ class Recommendation():
     def cos_sim(self, x, y):
         return dot(x, y)/(norm(x)*norm(y))
 
+    def item_weight(self, x=1, y=1):
+        weight = np.eye(3605)
+        df = self.sim_df()
+        idx = df[df.price >= 100000].index
+
+        for num in idx:
+            weight[num, num] *= x
+
+        for num in range(3200, 3605):
+            weight[num, num] *= y
+        
+        return weight
+
     def recommendation(self):
         df = self.sim_df()
 
@@ -65,7 +78,7 @@ class Recommendation():
             self.cos_sim_df.append(self.cos_sim(target_image, vect))
         self.cos_sim_df = np.array(self.cos_sim_df)
 
-        df['weight'] = self.cos_sim_df #cos_sim_df.dot(weight)
+        df['weight'] = self.cos_sim_df.dot(self.item_weight())
         df.sort_values('weight', ascending=False, inplace=True)
         df.reset_index(drop=True, inplace=True)
 
@@ -80,6 +93,7 @@ class Recommendation():
         for i in range(5):
             url = df.loc[i].image_url
             image = Image.open(requests.get(url, stream=True).raw)
+            image.show()
             plt.subplot(1,6,i+2)
             plt.imshow(image)
             plt.title('Top {}'.format(i+1))
