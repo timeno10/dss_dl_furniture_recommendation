@@ -92,7 +92,7 @@
 3. 여러 가구들이 찍힌 이미지일 경우 우선 cropping.py 실행 
 4. recommend_items.py 실행
 5. 파일 이름 & 카테고리 설정 ex) input.jpg, chair
-6. 쥬피터 노트북 사용 시 test.ipynb 참조
+6. 쥬피터 노트북 사용 시 tutorial.ipynb 참조
 ```
 
 ## Plans
