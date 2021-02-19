@@ -89,9 +89,9 @@
 ```
 1. !git clone https://github.com/alltimeno1/dss_dl_furniture_recommendation.git
 2. SungJun/module/pics 안에 원하는 인테리어 사진 넣기
-3. 여러 가구들이 찍힌 이미지일 경우 우선 cropping.py 실행 
-4. recommend_items.py 실행
-5. 파일 이름 & 카테고리 설정 ex) input.jpg, chair
+3. 여러 가구들이 찍힌 이미지일 경우 우선 cropping.py을 Colab(권장)에서 실행 
+4. recommend_items.py 로컬 파일에서 실행
+5. 파일 이름 & 카테고리 설정 ex) input.jpg & chair
 6. 쥬피터 노트북 사용 시 tutorial.ipynb 참조
 ```
 
