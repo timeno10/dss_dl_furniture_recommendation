@@ -63,8 +63,8 @@ def item_weight(item, num, x=1, y=1, price=100000):
     return weight
 
 def recommendation():
-    input_path = "pics/" + input("filename of your image is ")
-    item = input("Choose category(chair, couch, clock) : ")
+    input_path = "pics/" + input("The filename of your image is ")
+    item = input("Choose category(chair, couch, table, clock) : ")
     print('Wait a second please!')
 
     df = sim_df(item)
@@ -84,6 +84,8 @@ def recommendation():
     df['weight'] = cos_sim_df.dot(item_weight(item, num))
     df.sort_values('weight', ascending=False, inplace=True)
     df.reset_index(drop=True, inplace=True)
+
+    print('We\'ll show you 5 items')
 
     plt.figure(figsize = (16,9))
     
