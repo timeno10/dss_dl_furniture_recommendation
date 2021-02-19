@@ -63,7 +63,7 @@ def item_weight(item, num, x=1, y=1, price=100000):
     return weight
 
 def recommendation():
-    input_path = "pics/" + input("filename of your image  is ")
+    input_path = "pics/" + input("filename of your image is ")
     item = input("Choose category(chair, couch, clock) : ")
     print('Wait a second please!')
 
